@@ -1,4 +1,6 @@
 # 100% gapake ai, berotak senku :D
+# Created by Huddin
+# MIT Licence
 
 # 1. Tuples:
 # a. buat tuple mahasiswa (Nama, NIM, Prodi)
