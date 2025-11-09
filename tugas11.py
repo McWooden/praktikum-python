@@ -1,5 +1,5 @@
 # Link: https://drive.google.com/file/u/3/d/1tdfA9NgH6iBTSxQVRQONtDacq-1EhN1H/view?usp=classroom_web&pli=1
-# Note: Gampang aja, kalian tinggal copy paste kodingan dari tugas 11 sebelumnya di Google Colab
+# Note: Gampang aja, kalian tinggal copy paste kodingan dari tugas 10 sebelumnya di Google Colab
 
 # import module yang dibutuhkan
 import datetime
@@ -64,7 +64,6 @@ while True:
 
 
 
-# Catatan lebih gampang:
-# 1. aku lebih suka menggunakan template_buku.copy() daripada dict.fromkeys(template_buku.keys()) buat buku_baru, ya.. kalo opsi kedua sih cuma copy keynya doang, nggak sama nilainya, dan lagi kenapa kita bikin template kalo milih opsi kedua yang akhirnya nilainya ga dipake
-# 2. pakai uuid lebih anti konflik double key daripada string + random number, tapi yaudahlah ya.. ini cuma tugas sederhana
-# 3. kalo ada format kayak "data['judul']:<25", itu maksudnya bikin kolom 25 karekter, terus rata kekiri(<), kalo kanan ya >, kalo tengah ^
+# Catatan:
+# 1. pakai uuid lebih anti konflik double key daripada string + random number, tapi yaudahlah ya.. ini cuma tugas sederhana
+# 2. kalo ada format kayak "data['judul']:<25", itu maksudnya bikin kolom 25 karekter, terus rata kekiri(<), kalo kanan ya >, kalo tengah ^
