@@ -74,6 +74,6 @@ while True:
 
 
 # Catatan:
-# 1. aku lebih suka menggunakan .copy() daripada dict.fromkeys(template_buku.keys()) buat buku_baru, ya.. kalo opsi kedua sih cuma copy keynya doang, nggak sama nilainya
+# 1. aku lebih suka .copy() daripada dict.fromkeys(template_buku.keys()) buat buku_baru, ya.. kalo opsi kedua sih cuma copy keynya doang, nggak sama nilainya
 # 2. pakai uuid lebih anti konflik double key daripada string + random number, tapi yaudahlah ya.. ini cuma tugas sederhana
 # 3. kalo ada format kayak "data['judul']:<25", itu maksudnya bikin kolom 25 karekter, terus rata kekiri(<), kalo kanan ya >, kalo tengah ^
