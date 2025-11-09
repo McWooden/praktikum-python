@@ -29,11 +29,11 @@ while True:
     buku_baru["tanggal_terakhir_dipinjam"] = datetime.datetime(tahun, bulan, tanggal)
 
     # minta status peminjaman
-    dipinjam = input("Apakah buku sedang dipinjam? (y/n): ").lower()
+    dipinjam = input("Apakah buku tersedia? (y/n): ").lower()
     if dipinjam == "y":
-        buku_baru["status"] = False
-    else:
         buku_baru["status"] = True
+    else:
+        buku_baru["status"] = False
 
     # buat key buat akses buku baru, logika: dia bakal milih huruf kapital 6 kali, awalnya list misal ["H", "U", "D", "D", "I", "N"], tapi di gabungin jadi string "HUDDIN"
     key = "".join((random.choice(string.ascii_uppercase) for i in range(6)))
