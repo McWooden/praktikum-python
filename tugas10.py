@@ -4,10 +4,10 @@
 
 # 1. Tuples:
 # a. buat tuple mahasiswa (Nama, NIM, Prodi)
-mahasiswa = ("Sholahuddin Ahmad", "2505060070", "Teknologi Informasi")
+# mahasiswa = ("Sholahuddin Ahmad", "2505060070", "Teknologi Informasi")
 # b. Tampilkan NIM dan Prodi
-print(mahasiswa[1])
-print(mahasiswa[2])
+# print(mahasiswa[1])
+# print(mahasiswa[2])
 
 # 2. Dictionary:
 # a. Buat dictionary keranjang dengan data buah-buahan
