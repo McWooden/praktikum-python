@@ -28,7 +28,7 @@ while True:
     tanggal = int(input("Masukkan tanggal terakhir dipinjam (1-31): "))
     buku_baru["tanggal_terakhir_dipinjam"] = datetime.datetime(tahun, bulan, tanggal)
 
-    # minta status peminjaman
+    # minta status ketersediaan
     dipinjam = input("Apakah buku tersedia? (y/n): ").lower()
     if dipinjam == "y":
         buku_baru["status"] = True
@@ -36,7 +36,7 @@ while True:
         buku_baru["status"] = False
 
     # buat key buat akses buku baru, logika: dia bakal milih huruf kapital 6 kali -> awalnya looping dapet karakter acak di dalem list, misal ["H", "U", "D", "D", "I", "N"], terus di gabungin pake join jadi string "HUDDIN"
-    key = "".join((random.choice(string.ascii_uppercase) for i in range(6)))
+    key = "".join([random.choice(string.ascii_uppercase) for i in range(6)])
 
     # tambahin ke lemari, logika: lemari dengan key yang baru aja dibuat ditempati buku baru
     lemari[key] = buku_baru
@@ -64,6 +64,6 @@ while True:
 
 
 
-# Catatan:
+# Catatan logika:
 # 1. pakai uuid lebih anti konflik double key daripada string + random number, tapi yaudahlah ya.. ini cuma tugas sederhana
 # 2. kalo ada format kayak "data['judul']:<25", itu maksudnya bikin kolom 25 karekter, terus rata kekiri(<), kalo kanan ya >, kalo tengah ^
