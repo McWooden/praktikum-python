@@ -1,5 +1,5 @@
 # Link: https://drive.google.com/file/u/3/d/1tdfA9NgH6iBTSxQVRQONtDacq-1EhN1H/view?usp=classroom_web&pli=1
-# Note: Gampang aja, kalian tinggal copy paste kodingan dari tugas 11 sebelumnya di Google Colab
+# Note: Gampang aja, kalian tinggal copy paste kodingan dari tugas 10 sebelumnya di Google Colab
 
 # import module yang dibutuhkan
 import datetime
