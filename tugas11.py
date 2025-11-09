@@ -9,22 +9,13 @@ import string
 # lemari buku sebagai database
 lemari = {}
 
-# template struktur data buku
-template_buku = {
-    "judul": "Tidak Memiliki Judul",
-    "penulis": "anonim",
-    "tahun_terbit": '1999',
-    "tanggal_terakhir_dipinjam": datetime.datetime(1111,1,11),
-    "status": False
-}
-
 print("Selamat datang di dashboard Kapten!")
-print("Pasti tuan ingin mengelola lemari buku ini!\n")
+print("Pasti ingin mengelola lemari buku ini!\n")
 
 while True:
     print("Silahkan tambah buku baru")
-    # buat buku baru dengan copy dari template_buku
-    buku_baru = template_buku.copy()
+    # buat buku baru, logika: mulai bikin dictionary kosong, ntar di isi pake input
+    buku_baru = {}
 
     # perbarui buku_baru dengan data baru
     buku_baru["judul"] = input("Masukkan judul buku: ")
@@ -74,6 +65,5 @@ while True:
 
 
 # Catatan:
-# 1. aku lebih suka .copy() daripada dict.fromkeys(template_buku.keys()) buat buku_baru, ya.. kalo opsi kedua sih cuma copy keynya doang, nggak sama nilainya
-# 2. pakai uuid lebih anti konflik double key daripada string + random number, tapi yaudahlah ya.. ini cuma tugas sederhana
-# 3. kalo ada format kayak "data['judul']:<25", itu maksudnya bikin kolom 25 karekter, terus rata kekiri(<), kalo kanan ya >, kalo tengah ^
+# 1. pakai uuid lebih anti konflik double key daripada string + random number, tapi yaudahlah ya.. ini cuma tugas sederhana
+# 2. kalo ada format kayak "data['judul']:<25", itu maksudnya bikin kolom 25 karekter, terus rata kekiri(<), kalo kanan ya >, kalo tengah ^
