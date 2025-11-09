@@ -65,6 +65,6 @@ while True:
 
 
 # Catatan logika:
-# 1. pakai uuid lebih anti konflik double key daripada string + random number, tapi yaudahlah ya.. ini cuma tugas sederhana
+# 1. bikin key pakai uuid lebih anti konflik double key daripada string + random number, tapi yaudahlah ya.. ini cuma tugas sederhana
 # 2. kalo ada format kayak "data['judul']:<25", itu maksudnya bikin kolom 25 karekter, terus rata kekiri(<), kalo kanan ya >, kalo tengah ^
 # 3. info lengkap strftime https://www.geeksforgeeks.org/python/python-strftime-function/
