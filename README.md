@@ -12,7 +12,7 @@
 
 Welcome... di repository tugas mata kuliah **Algoritma dan Pemrograman**.  
 
-## Meme
+## 🗿 Meme
 
 <p align="center">
   <img src="asset/master.webp" alt="Preview Program" width="400"/>
@@ -25,7 +25,7 @@ Pastikan kamu sudah menginstall **Python 3.x** di perangkatmu. Juga pastikan tid
 ```
 python nama_file.py
 ```
-## I’m out👋😎
+## 👋😎 I’m out
 Kalau ada pertanyaan, langsung aja tulis di kolom komentar artikel mediumku yang relevan. Aku Huddin, ngucapin terimakasih sudah baca sampai akhir. Sampai jumpa kembali minggu depan! 
 
 [https://medium.com/@halohuddin](https://medium.com/@halohuddin)
