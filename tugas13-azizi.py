@@ -64,5 +64,3 @@ def urutkan_berdasarkan_harga():
     gudang_list.reverse()
     
     return gudang_list
-
-print(urutkan_berdasarkan_harga())
